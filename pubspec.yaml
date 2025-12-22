@@ -1,0 +1,47 @@
+name: aplikasiabsensi
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image_picker: ^1.0.4
+  rflutter_alert: ^2.0.7
+  supabase_flutter: ^2.9.1
+  get: ^4.7.2
+  intl: ^0.20.2
+  slide_to_act: ^2.0.0
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  flutter_date_pickers: ^0.4.0
+  pdf: ^3.11.3
+  printing: ^5.14.2
+  google_fonts: ^6.3.2
+  google_mlkit_face_detection: ^0.13.1
+  flutter_foreground_task: ^6.1.1
+  flutter_local_notifications: ^17.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/login.png
+    - assets/images/register.png
+    - assets/images/fotoOrang.png
+    - assets/fonts/Roboto-Bold.ttf
+    - assets/fonts/Roboto-Regular.ttf
